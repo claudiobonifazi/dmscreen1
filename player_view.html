@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="UTF-8">
+		<base href="./">
+		<title>Player view</title>
+		<style>body{background:#0a0a0a;}</style>
+		<meta name="theme-color" content="#5f46ff">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/player.css">
+		<script src="/socket.io/socket.io.js"></script>
+		<script defer src="js/player.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Player view">
+		<link rel="icon" type="image/x-icon" href="/img/icon.png">
+		<link rel="manifest" href="/manifest_player.json" crossorigin="use-credentials">
+	</head>
+	<body class="socket-unloaded">
+		<div id="root">
+			<video src="video/smoke.mov" id="playerview_emptyPage" autoplay loop muted></video>
+		</div>
+	</body>
+</html>

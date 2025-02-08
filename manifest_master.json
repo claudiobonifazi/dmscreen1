@@ -1,0 +1,17 @@
+{
+	"default_locale": "it",
+	"name": "dmscreen - master",
+	"shortName": "Master",
+    "start_url": ".\/master_view.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#5f46ff",
+    "icons": [
+        {
+            "src": "img\/icon.png",
+            "sizes": "512x512",
+            "type": "image\/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

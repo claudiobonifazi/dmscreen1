@@ -1,0 +1,286 @@
+*{
+	pointer-events: none !important;
+	cursor: none !important;
+}
+#root{
+	background: #0a0a0a;
+}
+#playerview_emptyPage{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	transform: rotate(180deg) translateY(-45%);
+}
+body.socket-unloaded #playerview_emptyPage{
+	display: none;
+}
+
+.player_page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--bg-col);
+}
+
+#timer{
+	--bg-col: #111;
+	--flash-col: rgba(255,255,255,0.075);
+	--fire-col: rgba(255,70,0,1);
+	--fire-col-tr: rgba(255,70,0,.1);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden; 
+	contain: strict;
+	/*pointer-events: none;*/
+	display: grid;
+	place-content: center;
+}
+
+@keyframes timer_number{
+	from{ opacity: 0; transform: scale(0.05) }
+}
+#timer_number{
+	--size: 30vh;
+	position: relative;
+	display: inline-block;
+	font-size: calc( var(--size) * 0.75 );
+
+	width: var(--size);
+	height: var(--size);
+	line-height: var(--size);
+	text-align: center;
+	background: var(--bg-col);
+	border-radius: 50%;
+
+	animation-name: timer_number;
+	animation-duration: 250ms;
+	animation-timing-function: ease-out;
+	animation-iteration-count: 1;
+	animation-play-state: running;
+}
+
+@keyframes timer_number_after{
+
+}
+#timer_number::before,
+#timer_number::after{
+	--bd-size: 0.25;
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+}
+#timer_number::before{
+	will-change: background;
+	--perc: calc( ( var(--num) /  ) * 100% );
+	width: calc( var(--size) * ( 1 + var(--bd-size) ) );
+	height: calc( var(--size) * ( 1 + var(--bd-size) ) );
+	left: calc( var(--size) * -1 * var(--bd-size) / 2 );
+	top: calc( var(--size) * -1 * var(--bd-size) / 2 );
+	background: conic-gradient( var(--bg-col) var(--perc), transparent 0 );
+	z-index: -1;
+}
+#timer_number::after{
+	width: calc( var(--size) * ( 1 + var(--bd-size) ) - 2px );
+	height: calc( var(--size) * ( 1 + var(--bd-size) ) - 2px );
+	left: calc( var(--size) * -1 * var(--bd-size) / 2 + 1px );
+	top: calc( var(--size) * -1 * var(--bd-size) / 2 + 1px );
+	background: var(--fire-col);
+	z-index: -2;
+	box-shadow: 0 0 25vw var(--fire-col-tr);
+}
+
+@keyframes timer_backFlash{
+	 66%{ opacity: 0 }
+	100%{ opacity: 1 }
+}
+#timer_backFlash{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: radial-gradient( var(--flash-col), transparent );
+	overflow: hidden;
+	contain: strict;
+	pointer-events: none;
+	z-index: -1;
+	will-change: opacity;
+	animation-name: timer_backFlash;
+	animation-duration: calc( 1000ms / var(--speed,1) );
+	animation-timing-function: ease-out;
+	animation-iteration-count: var(--num,60);
+	animation-play-state: running;
+}
+
+@keyframes player_page_endEffect{
+	from{ transform: translateY(100%) }
+	to{ transform: translateY(-100%) }
+}
+.player_page.endEffect::before,
+.player_page.endEffect::after{
+	content: "";
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	contain: strict;
+	pointer-events: none;
+	z-index: 99999;
+	animation-name: player_page_endEffect;
+	animation-duration: 1000ms;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 1;
+	animation-play-state: running;
+}
+.player_page.endEffect::before{
+	background: linear-gradient( 45deg, darkorange, red );
+}
+.player_page.endEffect::after{
+	background: linear-gradient( 180deg, yellow, transparent );
+	opacity: 0.5;
+}
+
+@keyframes player_showNpcImg{
+	0%{
+		filter: opacity(0) grayscale(1);
+		transform: translateY(10%);
+	}
+	50%{
+		filter: opacity(0.9) grayscale(1);
+	}
+	75%{
+		filter: grayscale(1);
+	}
+	100%{
+		filter: none;
+		transform: none;
+	}
+}
+.player_showNpcArea{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	overflow: hidden;
+	contain: strict;
+	grid-template-rows: 1fr max-content;
+	will-change: filter, transform;
+	animation-name: player_showNpcImg;
+	animation-duration: 0.4s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;
+	animation-play-state: running;
+}
+.player_showNpcImg{
+	position: relative;
+	background-image: linear-gradient(transparent, transparent 57.5%,var(--col)), 
+					  var(--img), 
+					  linear-gradient(transparent,var(--col));
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+}
+@keyframes player_showNpcImg_subanim1{
+	0%{
+		opacity: 0;
+		transform: translate( 0%, 50% );
+	}
+	50%{
+		opacity: 0.5;
+		transform: translate( 50%, 0% );
+	}
+	100%{
+		opacity: 0;
+		transform: translate( 100%, 50% );
+	}
+}
+@keyframes player_showNpcImg_subanim2{
+	0%{
+		opacity: 0;
+		transform: translate( 0%, 50% );
+	}
+	25%{
+		opacity: 0.5;
+		transform: translate( -25%, 0% );
+	}
+	50%{
+		opacity: 0.25;
+		transform: translate( -50%, 50% );
+	}
+	75%{
+		opacity: 0.5;
+		transform: translate( -75%, 0% );
+	}
+	100%{
+		opacity: 0;
+		transform: translate( -100%, 50% );
+	}
+}
+.player_showNpcImg::before,
+.player_showNpcImg::after{
+	content: "";
+	position: absolute;
+	bottom: -100%;
+	width: 66.67%;
+	height: 150%;
+	background: radial-gradient( var(--col), var(--col-l), transparent 75% );
+	overflow: hidden;
+	contain: strict;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-play-state: running;
+}
+.player_showNpcImg::before{
+	left: 0;
+	animation-name: player_showNpcImg_subanim1;
+	animation-duration: 6s;
+}
+.player_showNpcImg::after{
+	right: 0;
+	animation-name: player_showNpcImg_subanim2;
+	animation-duration: 4s;
+}
+.player_showNpcDesc{
+	padding: 8px 0 8px 8px;
+	background: var(--col);
+	/* font-size: 18px; */
+	font-size: 32px;
+}
+.player_showNpcDesc>*{
+	color: #fff;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.player_showNpcName{
+	font-weight:bold;
+}
+.player_showNpcTitle{
+	font-size: 85%;
+}
+
+
+.player_showDocArea{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.player_showDocImg{
+	width: 100%;
+}

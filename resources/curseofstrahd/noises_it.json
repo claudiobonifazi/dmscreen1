@@ -1,0 +1,92 @@
+[
+	{
+		"id": 1,
+		"name": "Abbazia di Santa Markovia",
+		"file": "resources/curseofstrahd/noises/Abbey of St Markovia.mp3"
+	},
+	{
+		"id": 2,
+		"name": "Tempio d'ambra",
+		"file": "resources/curseofstrahd/noises/Amber Temple.mp3"
+	},
+	{
+		"id": 3,
+		"name": "Argynvostholt",
+		"file": "resources/curseofstrahd/noises/Argynvostholt.mp3"
+	},
+	{
+		"id": 4,
+		"name": "Ravenloft - castello",
+		"file": "resources/curseofstrahd/noises/Castle Ravenloft.mp3"
+	},
+	{
+		"id": 5,
+		"name": "Ravenloft - catacombe",
+		"file": "resources/curseofstrahd/noises/Catacombs.mp3"
+	},
+	{
+		"id": 6,
+		"name": "Death house - dungeon",
+		"file": "resources/curseofstrahd/noises/Death House Dungeon.mp3"
+	},
+	{
+		"id": 7,
+		"name": "Death House - casa",
+		"file": "resources/curseofstrahd/noises/Death House.mp3"
+	},
+	{
+		"id": 8,
+		"name": "Tenda di Madame Eva",
+		"file": "resources/curseofstrahd/noises/Madam Eva's Tent.mp3"
+	},
+	{
+		"id": 9,
+		"name": "Nebbie",
+		"file": "resources/curseofstrahd/noises/Mists Of Ravenloft.mp3"
+	},
+	{
+		"id": 10,
+		"name": "Mulino Macinaossa",
+		"file": "resources/curseofstrahd/noises/Old Bonegrinder.mp3"
+	},
+	{
+		"id": 11,
+		"name": "Rovine di Berez",
+		"file": "resources/curseofstrahd/noises/Ruins of Berez.mp3"
+	},
+	{
+		"id": 12,
+		"name": "Boschi di Svalich",
+		"file": "resources/curseofstrahd/noises/Svalich Woods.mp3"
+	},
+	{
+		"id": 13,
+		"name": "Mago dei vini",
+		"file": "resources/curseofstrahd/noises/The Wizard of Wines.mp3"
+	},
+	{
+		"id": 14,
+		"name": "Vallaki",
+		"file": "resources/curseofstrahd/noises/Town of Vallaki.mp3"
+	},
+	{
+		"id": 15,
+		"name": "Passo di Tsolenka",
+		"file": "resources/curseofstrahd/noises/Tsolenka Pass.mp3"
+	},
+	{
+		"id": 16,
+		"name": "Torre di Van Richten",
+		"file": "resources/curseofstrahd/noises/Van Richten's Tower.mp3"
+	},
+	{
+		"id": 17,
+		"name": "Krezk",
+		"file": "resources/curseofstrahd/noises/Village of Krezk.mp3"
+	},
+	{
+		"id": 18,
+		"name": "Barovia",
+		"file": "resources/curseofstrahd/noises/Village Of Barovia.mp3"
+	}
+]

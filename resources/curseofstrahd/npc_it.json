@@ -1,0 +1,596 @@
+[
+	{
+		"id": 1,
+		"name": "Ismark",
+		"surname": "Kolyanovich",
+		"nickname": "Il piccolo",
+		"portrait": "resources/curseofstrahd/img/ismark-removebg-preview.png",
+		"color": "#243325",
+		"music": null
+	},
+	{
+		"id": 2,
+		"name": "Arabelle",
+		"surname": "",
+		"nickname": "figlia di Luvash",
+		"portrait": "resources/curseofstrahd/img/arabelle-removebg-preview.png",
+		"color": "#A76F67",
+		"music": null
+	},
+	{
+		"id": 3,
+		"name": "Rudolph",
+		"surname": "Van Richten",
+		"nickname": "Cacciatore di vampiri",
+		"portrait": "resources/curseofstrahd/img/vanrichten-removebg-preview.png",
+		"color": "#ed143d",
+		"music": null
+	},
+	{
+		"id": 4,
+		"name": "Ezmeralda",
+		"surname": "D'Avenir",
+		"nickname": "Cacciatrice di mostri",
+		"portrait": "resources/curseofstrahd/img/ezmerelda-removebg-preview.png",
+		"color": "#ed143d",
+		"music": null
+	},
+	{
+		"id": 5,
+		"name": "Bluto",
+		"surname": "Krogarov",
+		"nickname": "pescatore",
+		"portrait": "resources/curseofstrahd/img/bluto-removebg-preview.png",
+		"color": "#523f3f",
+		"music": null
+	},
+	{
+		"id": 6,
+		"name": "Rahadin",
+		"surname": "",
+		"nickname": "ciambellano di Ravenloft",
+		"portrait": "resources/curseofstrahd/img/rahadin-removebg-preview.png",
+		"color": "#5521bd",
+		"music": null
+	},
+	{
+		"id": 7,
+		"name": "Sir Godfrey",
+		"surname": "Gwilym",
+		"nickname": "Cavaliere d'argento",
+		"portrait": "resources/curseofstrahd/img/Sir_godfrey_gwilym-removebg-preview.png",
+		"color": "#615e64",
+		"music": null
+	},
+	{
+		"id": 8,
+		"name": "Morgantha",
+		"surname": "",
+		"nickname": "Megera macina ossa",
+		"portrait": "resources/curseofstrahd/img/morgantha-removebg-preview.png",
+		"color": "#2d216c",
+		"music": null
+	},
+	{
+		"id": 9,
+		"name": "Milivoj",
+		"surname": "",
+		"nickname": "Scavafosse di Vallaki",
+		"portrait": "resources/curseofstrahd/img/Milivoj_1_-removebg-preview.png",
+		"color": "#ab6422",
+		"music": null
+	},
+	{
+		"id": 10,
+		"name": "Rictavio",
+		"surname": "",
+		"nickname": "Il cantastorie",
+		"portrait": "resources/curseofstrahd/img/Rictavio_1_-removebg-preview.png",
+		"color": "#ed143d",
+		"music": null
+	},
+	{
+		"id": 11,
+		"name": "Strahd",
+		"surname": "Von Zarovich",
+		"nickname": "Signore di Ravenloft",
+		"portrait": "resources/curseofstrahd/img/strahd3.png",
+		"color": "#220000",
+		"music": null
+	},
+	{
+		"id": 12,
+		"name": "Vasili",
+		"surname": "Von Holtz",
+		"nickname": "Nobile vallakiano",
+		"portrait": "resources/curseofstrahd/img/Vasili_1_-removebg-preview.png",
+		"color": "#1e519d",
+		"music": null
+	},
+	{
+		"id": 13,
+		"name": "Gadof",
+		"surname": "Blinsky",
+		"nickname": "Il giocattolaio",
+		"portrait": "resources/curseofstrahd/img/blinsky-removebg-preview.png",
+		"color": "#6a311a",
+		"music": null
+	},
+	{
+		"id": 14,
+		"name": "Cyrus",
+		"surname": "Bellavista",
+		"nickname": "Servo di Ravenloft",
+		"portrait": "resources/curseofstrahd/img/dnd_mongrelfolk_5e.png",
+		"color": "#7e2705",
+		"music": null
+	},
+	{
+		"id": 15,
+		"name": "Padre",
+		"surname": "Donavich",
+		"nickname": "Sacerdote del Mattino di Barovia",
+		"portrait": "resources/curseofstrahd/img/Donavich-removebg-preview.png",
+		"color": "#b38531",
+		"music": null
+	},
+	{
+		"id": 16,
+		"name": "Lady Fiona",
+		"surname": "Wachter",
+		"nickname": "Nobile Vallakiana",
+		"portrait": "resources/curseofstrahd/img/wachter.png",
+		"color": "#bd3d3d",
+		"music": null
+	},
+	{
+		"id": 17,
+		"name": "Ireena",
+		"surname": "Kolyanovich",
+		"nickname": "Il bersaglio di Strahd",
+		"portrait": "resources/curseofstrahd/img/ireena.png",
+		"color": "#ff4d4d",
+		"music": null
+	},
+	{
+		"id": 18,
+		"name": "Helga",
+		"surname": "Ruvak",
+		"nickname": "Serva di Ravenloft",
+		"portrait": "resources/curseofstrahd/img/helga-removebg-preview[1].png",
+		"color": "#6192b5",
+		"music": null
+	},
+	{
+		"id": 19,
+		"name": "L'abate",
+		"surname": "",
+		"nickname": "Padrone dell'abbazia di S. Markovia",
+		"portrait": "resources/curseofstrahd/img/abbot.png",
+		"color": "#625225",
+		"music": null
+	},
+	{
+		"id": 20,
+		"name": "Davian",
+		"surname": "Martikov",
+		"nickname": "Patriarca dei corvi",
+		"portrait": "resources/curseofstrahd/img/davian.png",
+		"color": "#1f3668",
+		"music": null
+	},
+	{
+		"id": 21,
+		"name": "Adrian",
+		"surname": "Martikov",
+		"nickname": "Figlio di Urwin",
+		"portrait": "resources/curseofstrahd/img/adrian.png",
+		"color": "#1f3668",
+		"music": null
+	},
+	{
+		"id": 22,
+		"name": "Urwin",
+		"surname": "Martikov",
+		"nickname": "Marito di Danika",
+		"portrait": "resources/curseofstrahd/img/urwin.png",
+		"color": "#1f3668",
+		"music": null
+	},
+	{
+		"id": 23,
+		"name": "Brom & Bray",
+		"surname": "Martikov",
+		"nickname": "Fratelli di Adrian",
+		"portrait": "resources/curseofstrahd/img/brombray.png",
+		"color": "#1f3668",
+		"music": null
+	},
+	{
+		"id": 24,
+		"name": "Danika",
+		"surname": "Martikov",
+		"nickname": "Proprietaria della Locanda dell'acqua blu",
+		"portrait": "resources/curseofstrahd/img/danika.png",
+		"color": "#1f3668",
+		"music": null
+	},
+	{
+		"id": 25,
+		"name": "Izek",
+		"surname": "Strazni",
+		"nickname": "Braccio destro del barone di Vallaki",
+		"portrait": "resources/curseofstrahd/img/izek.png",
+		"color": "#d5420a",
+		"music": null
+	},
+	{
+		"id": 26,
+		"name": "Padre Lucian",
+		"surname": "Petrovich",
+		"nickname": "Sacerdote del Mattino di Vallaki",
+		"portrait": "resources/curseofstrahd/img/lucian.png",
+		"color": "#a18601",
+		"music": null
+	},
+	{
+		"id": 27,
+		"name": "Anna",
+		"surname": "Krezkova",
+		"nickname": "Moglie del borgomastro di Krezk",
+		"portrait": "resources/curseofstrahd/img/annakrezk.png",
+		"color": "#a18601",
+		"music": null
+	},
+	{
+		"id": 28,
+		"name": "Dimitri",
+		"surname": "Krezkov",
+		"nickname": "Borgomastro di Krezk",
+		"portrait": "resources/curseofstrahd/img/krezk.png",
+		"color": "#a18601",
+		"music": null
+	},
+	{
+		"id": 29,
+		"name": "Henrik",
+		"surname": "Van der voort",
+		"nickname": "Fabbricante di bare",
+		"portrait": "resources/curseofstrahd/img/vandervoort.png",
+		"color": "#523f3f",
+		"music": null
+	},
+	{
+		"id": 30,
+		"name": "Kiril",
+		"surname": "Stoyanovich",
+		"nickname": "Leader della caverna dei lupi",
+		"portrait": "resources/curseofstrahd/img/kiril.png",
+		"color": "#523f3f",
+		"music": null
+	},
+	{
+		"id": 31,
+		"name": "Luvash",
+		"surname": "",
+		"nickname": "Vistani di Vallaki",
+		"portrait": "resources/curseofstrahd/img/Luvash.png",
+		"color": "#A76F67",
+		"music": null
+	},
+	{
+		"id": 32,
+		"name": "Arrigal",
+		"surname": "",
+		"nickname": "Vistani di Vallaki",
+		"portrait": "resources/curseofstrahd/img/Arrigal.png",
+		"color": "#A76F67",
+		"music": null
+	},
+	{
+		"id": 33,
+		"name": "Vargas",
+		"surname": "Vallakovich",
+		"nickname": "Barone di Vallaki",
+		"portrait": "resources/curseofstrahd/img/vargas.png",
+		"color": "#bd3d3d",
+		"music": null
+	},
+	{
+		"id": 34,
+		"name": "Vladimir",
+		"surname": "Hoorngard",
+		"nickname": "Cavaliere d'argento",
+		"portrait": "resources/curseofstrahd/img/hoorngard.png",
+		"color": "#4690ff",
+		"music": null
+	},
+	{
+		"id": 35,
+		"name": "Harginvhost",
+		"surname": "",
+		"nickname": "Drago d'argento",
+		"portrait": "resources/curseofstrahd/img/harg.png",
+		"color": "#4690ff",
+		"music": null
+	},
+	{
+		"id": 36,
+		"name": "Willemina",
+		"surname": "Rikalova",
+		"nickname": "Anziana di Vallaki",
+		"portrait": "resources/curseofstrahd/img/willemina.png",
+		"color": "#523f3f",
+		"music": null
+	},
+	{
+		"id": 37,
+		"name": "Ernst",
+		"surname": "Larnak",
+		"nickname": "Agente di Wachter",
+		"portrait": "resources/curseofstrahd/img/ernst.png",
+		"color": "#bd3d3d",
+		"music": null
+	},
+	{
+		"id": 38,
+		"name": "Emil",
+		"surname": "Toranescu",
+		"nickname": "Prigioniero di Ravenloft",
+		"portrait": "resources/curseofstrahd/img/emil.png",
+		"color": "#7e2705",
+		"music": null
+	},
+	{
+		"id": 39,
+		"name": "Mordenkainen",
+		"surname": "",
+		"nickname": "Leggendario stregone",
+		"portrait": "resources/curseofstrahd/img/mordenkainen.png",
+		"color": "#ff4800",
+		"music": null
+	},
+	{
+		"id": 40,
+		"name": "Baba Lysaga",
+		"surname": "",
+		"nickname": "La Strega",
+		"portrait": "resources/curseofstrahd/img/baba.png",
+		"color": "#134c0f",
+		"music": null
+	},
+	{
+		"id": 41,
+		"name": "Gertruda",
+		"surname": "",
+		"nickname": "Figlia di Mary la matta",
+		"portrait": "resources/curseofstrahd/img/gertruda.png",
+		"color": "#a860b5",
+		"music": null
+	},
+	{
+		"id": 42,
+		"name": "Mary",
+		"surname": "",
+		"nickname": "La matta",
+		"portrait": "resources/curseofstrahd/img/madmary.png",
+		"color": "#523f3f",
+		"music": null
+	},
+	{
+		"id": 43,
+		"name": "Doru",
+		"surname": "Donavich",
+		"nickname": "Vittima di Strahd",
+		"portrait": "resources/curseofstrahd/img/doru.png",
+		"color": "#b38531",
+		"music": null
+	},
+	{
+		"id": 44,
+		"name": "Zuleika",
+		"surname": "Toranescu",
+		"nickname": "Moglie di Emil",
+		"portrait": "resources/curseofstrahd/img/zuleika.png",
+		"color": "#7e2705",
+		"music": null
+	},
+	{
+		"id": 45,
+		"name": "Vilnius",
+		"surname": "",
+		"nickname": "Mago in trappola",
+		"portrait": "resources/curseofstrahd/img/Vilnius.png",
+		"color": "#ff4800",
+		"music": null
+	},
+	{
+		"id": 46,
+		"name": "Szoldar",
+		"surname": "Szoldarovich",
+		"nickname": "Cacciatore di Vallaki",
+		"portrait": "resources/curseofstrahd/img/szoldar.png",
+		"color": "#523f3f",
+		"music": null
+	},
+	{
+		"id": 47,
+		"name": "Lydia",
+		"surname": "Petrovna",
+		"nickname": "Moglie del barone",
+		"portrait": "resources/curseofstrahd/img/petrovna.png",
+		"color": "#bd3d3d",
+		"music": null
+	},
+	{
+		"id": 48,
+		"name": "Majesto",
+		"surname": "",
+		"nickname": "Imp infernale",
+		"portrait": "resources/curseofstrahd/img/majesto.png",
+		"color": "#bd3d3d",
+		"music": null
+	},
+	{
+		"id": 49,
+		"name": "Patrina",
+		"surname": "Velikovna",
+		"nickname": "Spettro di Ravenloft",
+		"portrait": "resources/curseofstrahd/img/patrina.png",
+		"color": "#3a2f4a",
+		"music": null
+	},
+	{
+		"id": 50,
+		"name": "Yevgeni",
+		"surname": "Krushkin",
+		"nickname": "Cacciatore di Vallaki",
+		"portrait": "resources/curseofstrahd/img/yevgeni.png",
+		"color": "#523f3f",
+		"music": null
+	},
+	{
+		"id": 51,
+		"name": "Ludmilla",
+		"surname": "Vilisevich",
+		"nickname": "Matrona di Ravenloft",
+		"portrait": "resources/curseofstrahd/img/ludmilla.png",
+		"color": "#3a2f4a",
+		"music": null
+	},
+	{
+		"id": 52,
+		"name": "Volenta",
+		"surname": "Popofsky",
+		"nickname": "Matrona di Ravenloft",
+		"portrait": "resources/curseofstrahd/img/volenta.png",
+		"color": "#75832c",
+		"music": null
+	},
+	{
+		"id": 53,
+		"name": "Anastrasya",
+		"surname": "Karelova",
+		"nickname": "Matrona di Ravenloft",
+		"portrait": "resources/curseofstrahd/img/anastrasia2.png",
+		"color": "#640606",
+		"music": null
+	},
+	{
+		"id": 54,
+		"name": "Neferon",
+		"surname": "",
+		"nickname": "Lo stregone",
+		"portrait": "resources/curseofstrahd/img/Neferon2.png",
+		"color": "#7b44b7",
+		"music": null
+	},
+	{
+		"id": 55,
+		"name": "Neferon",
+		"surname": "",
+		"nickname": "Arcanalot",
+		"portrait": "resources/curseofstrahd/img/Neferon.png",
+		"color": "#2d216c",
+		"music": null
+	},
+	{
+		"id": 56,
+		"name": "Madame Eva",
+		"surname": "",
+		"nickname": "Chiromante vistani",
+		"portrait": "resources/curseofstrahd/img/eva.png",
+		"color": "#af560b",
+		"music": null
+	},
+	{
+		"id": 57,
+		"name": "Kasimir",
+		"surname": "Velikov",
+		"nickname": "Elfo del crepuscolo",
+		"portrait": "resources/curseofstrahd/img/kasimir.png",
+		"color": "#3a2f4a",
+		"music": null
+	},
+	{
+		"id": 58,
+		"name": "Bildrath",
+		"surname": "Cantemir",
+		"nickname": "mercante baroviano",
+		"portrait": "resources/curseofstrahd/img/bildrath.png",
+		"color": "#523f3f",
+		"music": null
+	},
+	{
+		"id": 59,
+		"name": "Principe Ariel",
+		"surname": "Du Plumette",
+		"nickname": "Il pesante",
+		"portrait": "resources/curseofstrahd/img/plumette.png",
+		"color": "#6192b5",
+		"music": null
+	},
+	{
+		"id": 60,
+		"name": "Gunther",
+		"surname": "Arasek",
+		"nickname": "magazziniere",
+		"portrait": "resources/curseofstrahd/img/arasek1.png",
+		"color": "#523f3f",
+		"music": null
+	},
+	{
+		"id": 61,
+		"name": "Volothamp",
+		"surname": "Geddarm",
+		"nickname": "Scrittore girovago",
+		"portrait": "resources/curseofstrahd/img/volo.png",
+		"color": "#057e9b",
+		"music": null
+	},
+	{
+		"id": 62,
+		"name": "Streghe baroviane",
+		"surname": "",
+		"nickname": "Megere di Ravenloft",
+		"portrait": "resources/curseofstrahd/img/tremegere.png",
+		"color": "#bd6a00",
+		"music": null
+	},
+	{
+		"id": 63,
+		"name": "Lief",
+		"surname": "Lipsiege",
+		"nickname": "Tesoriere di Ravenloft",
+		"portrait": "resources/curseofstrahd/img/lief.png",
+		"color": "#4d4d4d",
+		"music": null
+	},
+	{
+		"id": 64,
+		"name": "Jenny",
+		"surname": "Dentiverdi",
+		"nickname": "Strega della montagna",
+		"portrait": "resources/curseofstrahd/img/greenteeth.png",
+		"color": "#11af08",
+		"music": null
+	},
+	{
+		"id": 65,
+		"name": "Escher",
+		"surname": "",
+		"nickname": "Consorte di Ravenloft",
+		"portrait": "resources/curseofstrahd/img/escher.png",
+		"color": "#640606",
+		"music": null
+	},
+	{
+		"id": 66,
+		"name": "Corina",
+		"surname": "",
+		"nickname": "Vittima di Ravenloft",
+		"portrait": "resources/curseofstrahd/img/__Corina.png",
+		"color": "#640606",
+		"music": null
+	}
+]

@@ -1,0 +1,176 @@
+#root{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: grid;
+    grid-template-rows: 1fr max-content;
+    row-gap: 4px;
+}
+#mainButtonList{
+	--spaces: 8px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	display: grid;
+	justify-items: center;
+	align-content: start;
+	padding: var(--spaces);
+	row-gap: var(--spaces);
+	background: var(--bg-col);
+	color: var(--txt-col);
+	width: 100%;
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+#mainButtonList button[data-id]{
+	width: 100%;
+	font-size: 125%;
+	transition: 0.125s transform ease;
+}
+
+#mainButtonList button[data-id]:not(.active):active{
+	will-change: transform;
+	transform: scale(0.95);
+}
+
+#mainButtonList button[data-id].active{
+	/* pointer-events: none !important; */
+	background:red;
+}
+
+#mainButtonList::-webkit-scrollbar{
+	width: 10px;
+}
+#mainButtonList::-webkit-scrollbar-track{
+	opacity: 0.1;
+}
+#mainButtonList::-webkit-scrollbar-thumb{
+	background: currentcolor;
+	border-radius: 5px;
+}
+
+
+
+.master_dialog{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	overflow: hidden;
+	contain: strict;
+	display: grid;
+	grid-template-rows: max-content 1fr;
+	padding: 0 8px;
+	background: var(--bg-col);
+	color: var(--txt-col);
+}
+.master_dialogHeader{
+	display: grid;
+	grid-template-columns: 1fr max-content;
+	column-gap: 8px;
+}
+.master_dialogTitle{
+	font-weight:bold;
+}
+.master_dialogClose{
+
+}
+.master_dialogBody{
+	overflow-x: hidden;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.5em;
+}
+
+.buttonName{
+	font-weight: bold;
+	font-size: 115%;
+}
+.buttonDesc{
+	font-style: italic;
+	opacity: 0.667;
+}
+
+
+#footer{
+	display: flex;
+	flex-direction: row;
+	gap: 4px;
+	background: var(--bg-col);
+	padding: 4px;
+}
+#footer .button.footer_btn{
+	width: var(--button-height);
+
+}
+#footer .button.footer_btn *{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: calc( var(--button-height) * 0.25 );
+}
+.simboloAudio{
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	width: calc( var(--button-height) *0.5 );
+	height: calc( var(--button-height) *0.5 );
+	background: transparent;
+	pointer-events: none;
+}
+.simboloAudio::before,
+.simboloAudio::after{
+	content: "";
+	--perc: calc( var(--volume,0) * 1% );
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: currentColor;
+}
+.simboloAudio::before{
+	clip-path: polygon( 0 100%,
+						var(--perc) calc( 100% - var(--perc) ),
+						var(--perc) 100%,
+						0 100% );
+}
+.simboloAudio::after{
+	clip-path: polygon( var(--perc) calc( 100% - var(--perc) ),
+						100% 0,
+						100% 100%,
+						var(--perc) 100%,
+						var(--perc) calc( 100% - var(--perc) ) );
+	opacity: 0.25;
+}
+
+
+#audio_controller{
+	position: fixed;
+	left: 4px;
+	bottom: calc(var(--button-height) + 10px );
+}
+#audio_controller::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: var(--button-bg-simple);
+	opacity: 0.25;
+	z-index: 0;
+	pointer-events: none;
+}
+#audio_controllerStop{
+	font-size: calc( var(--button-height) * 0.8 );
+}
+#audio_controllerVolume{
+	width: var(--button-height);
+	height: calc( var(--button-height) * 5 );
+	accent-color: var(--button-bg-simple);
+	writing-mode: vertical-lr;
+}

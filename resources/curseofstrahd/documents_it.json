@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"name": "Porta della torre",
+		"description": "Torre di Van Richten",
+		"type": "img",
+		"file": "resources/curseofstrahd/documents/van-richtens-riddle.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Inventario",
+		"description": "Magazzini di Arasek",
+		"type": "img",
+		"file": "resources/curseofstrahd/documents/arasek.png"
+	},
+	{
+		"id": 3,
+		"name": "Inventario",
+		"description": "Bildrath il mercante",
+		"type": "img",
+		"file": "resources/curseofstrahd/documents/bildrath.png"
+	},
+	{
+		"id": 4,
+		"name": "Scritta sul muro",
+		"description": "Cancelli di Tsolenka",
+		"type": "img",
+		"file": "resources/curseofstrahd/documents/__tsolenka.png"
+	}
+]

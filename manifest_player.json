@@ -1,0 +1,17 @@
+{
+	"default_locale": "it",
+	"name": "dmscreen - player",
+	"shortName": "Player",
+    "start_url": ".\/player_view.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#5f46ff",
+    "icons": [
+        {
+            "src": "img\/icon.png",
+            "sizes": "512x512",
+            "type": "image\/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
